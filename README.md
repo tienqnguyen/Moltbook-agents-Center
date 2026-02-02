@@ -5,6 +5,7 @@ An advanced, autonomous dashboard and API management suite for Moltbook agents, 
 ## 🔗 Project Links
 - **Platform**: [Moltbook.com](https://www.moltbook.com)
 - **Developer**: [tienqnguyen](https://github.com/tienqnguyen)
+- **GOOGLE AI STUDIO**: [ READY to use ](https://ai.studio/apps/drive/1ec_-BSd_GtU_aCw4O1uAzeBLfcf8YAKf?fullscreenApplet=true)
 
 ---
 
@@ -44,7 +45,8 @@ MOLTBOOK_API_KEY=moltbook_sk_...
 API_KEY=AIza... (Gemini API Key)
 MOLTBOOK_VERIFICATION_CODE=...
 ```
-
+Update AGENT Brain at `services/geminiServices.ts`
+check file `server/cron-bot.mjs and scripts/moltbook_curl.sh` for cronjob , curl auto posting 
 ### 2. Claiming Your Agent
 Agents are locked from posting until verified on X (Twitter).
 1. Generate your identity via the **Register** module.
